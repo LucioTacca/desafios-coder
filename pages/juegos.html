@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Play Music</title>
@@ -16,7 +17,7 @@
 
     <header class="header">
 
-        <h1>Juegos</h1>
+        <h1 class="titulo" data-aos="fade-down">Juegos</h1>
     <div>
         <nav>
             <ul>
@@ -41,12 +42,12 @@
         
     <section>
         <div class="juegos">
-            <div class="WPLastOfUs" ><h5>The Last Of Us</h5><img src="../img/wallpapperlastofus.png" alt=""></div>
-            <div class="WPCyberpunk"><h5>CyberPunk 2077</h5><img src="../img/wallpappercyberpunk.jpg" alt=""></div>
-            <div class="WPLol"><h5>League Of Legends</h5><img src="../img/wallpapperlol.jpg" alt=" alt=""></div>
-            <div class="WPPlague"><h5>A Plague Tale Innocence</h5><img src="../img/wallpapperplague.png" alt=""></div>
-            <div class="WPSenua"><h5>HellBlade: Senua's Sacrifice</h5><img src="../img/wallpappersenua.jpg" alt=""></div>
-            <div class="WPDoom"><h5>Doom (2016)</h5><img src="../img/wallpapperdoom.jpg" alt=""></div>
+            <div class="WPLastOfUs" data-aos="zoom-in"><h5>The Last Of Us</h5><img src="../img/wallpapperlastofus.png" alt=""></div>
+            <div class="WPCyberpunk" data-aos="zoom-in"><h5>CyberPunk 2077</h5><img src="../img/wallpappercyberpunk.jpg" alt=""></div>
+            <div class="WPLol" data-aos="zoom-in"><h5>League Of Legends</h5><img src="../img/wallpapperlol.jpg" alt=" alt=""></div>
+            <div class="WPPlague" data-aos="zoom-in"><h5>A Plague Tale Innocence</h5><img src="../img/wallpapperplague.png" alt=""></div>
+            <div class="WPSenua" data-aos="zoom-in"><h5>HellBlade: Senua's Sacrifice</h5><img src="../img/wallpappersenua.jpg" alt=""></div>
+            <div class="WPDoom" data-aos="zoom-in"><h5>Doom (2016)</h5><img src="../img/wallpapperdoom.jpg" alt=""></div>
         </div>
     </section>
 
@@ -71,6 +72,11 @@
     </footer>
 
     <!-- fin footer -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 </html>
