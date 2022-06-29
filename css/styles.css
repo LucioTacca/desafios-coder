@@ -52,7 +52,7 @@
 }
 
 .header nav ul :hover{
-    transform: scale(1.15);
+    transform: scale(1.05);
     color: orangered;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .nav-link:hover{
-    transform: scale(1.15);
+    transform: scale(1.05);
     color: orangered;
 }
 
@@ -114,14 +114,11 @@
 
 .card-body{
     background-color: black;
-    
 }
 
 .card.title{
     font-size: 1rem;
 }
-
-
 
 
 .main__juegos h3{
@@ -136,10 +133,10 @@
     text-align: center;
 }
 
-.main__juegos img{
+/* .main__juegos img{
     height: 30vh;
-    /* border:inset grey 5px; */
-}
+    border:inset grey 5px;
+} */
 
 .main__juegos li{
     list-style-type: none;
