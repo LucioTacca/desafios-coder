@@ -47,8 +47,8 @@
 
 .header nav ul {
     font-size: 2rem;
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
 }
 
 .header nav ul :hover{
@@ -58,6 +58,7 @@
 
 .header a{
     text-decoration: none;
+    font-size: 2rem;
 }
 
 .header div{
@@ -129,6 +130,14 @@
 
 .main__juegos li{
     list-style-type: none;
+}
+
+.discografia{
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    grid-template-rows: 400px 400px;
+    text-align: center;
+    font-size: 2rem;
 }
 
 .main__discografia ul li a{
