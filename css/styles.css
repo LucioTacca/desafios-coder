@@ -142,13 +142,13 @@
     list-style-type: none;
 }
 
-.discografia{
+/* .discografia{
     display: grid;
     grid-template-columns: repeat(3, 33.3%);
     grid-template-rows: 400px 400px;
     text-align: center;
     font-size: 2rem;
-}
+} */
 
 .main__discografia ul li a{
     color: rgb(185, 93, 93);
