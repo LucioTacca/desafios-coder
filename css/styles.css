@@ -61,6 +61,11 @@
     font-size: 2rem;
 }
 
+.nav-link:hover{
+    transform: scale(1.15);
+    color: orangered;
+}
+
 .header div{
     background-color: hsla(0, 0%, 0%, 0.534);
 }
@@ -99,16 +104,25 @@
 .juegos{
     display: grid;
     grid-template-columns: repeat(3, 33.3%);
-    grid-template-rows: 400px 400px;
+    grid-template-rows: 400px 400px; 
     justify-items: center;
-    align-items: center;
+    /* align-items: center;  */
+}
+
+.card{
+    background-color: rgb(31, 29, 29);
+}
+
+.card-body{
+    background-color: black;
+    
+}
+
+.card.title{
+    font-size: 1rem;
 }
 
 
-
-.main__juegos{
-    padding-left: 1rem;
-}
 
 
 .main__juegos h3{
@@ -119,13 +133,13 @@
 
 .main__juegos h5{
     color: rgb(185, 93, 93);
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 .main__juegos img{
     height: 30vh;
-    border:inset grey 5px;
+    /* border:inset grey 5px; */
 }
 
 .main__juegos li{
@@ -296,6 +310,8 @@
     .juegos{
         display: flex;
         flex-direction: column;
+        justify-items: center;
+        align-items: center;
     }
 
     .main__juegos h3{
@@ -362,6 +378,8 @@
     .juegos{
         display: flex;
         flex-direction: column;
+        justify-items: center;
+        align-items: center;
     }
 
     .main__juegos h3{
