@@ -76,7 +76,7 @@
 }
 /* ------------------------------MAIN------------------------------------- */
 
-.main{
+/* .main{
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
@@ -90,7 +90,7 @@
     grid-column: 2/3;
     grid-row: 1/2;
     align-self: center;
-    }
+    } */
 
 .main p{
     color: white;
@@ -101,13 +101,12 @@
     border:inset grey 5px;
 }
 
-.juegos{
+/* .juegos{
     display: grid;
     grid-template-columns: repeat(3, 33.3%);
     grid-template-rows: 400px 400px; 
     justify-items: center;
-    /* align-items: center;  */
-}
+} */
 
 .card{
     background-color: rgb(31, 29, 29);
@@ -173,7 +172,7 @@
 .main__historia h3{
     color: rgb(185, 93, 93);
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .main__historia p{
@@ -202,6 +201,7 @@
     border:inset grey 5px;
     width: 100%;
 }
+
 
 /* ---------------------------FOOTER------------------------------------- */
 
