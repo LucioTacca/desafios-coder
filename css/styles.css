@@ -238,7 +238,11 @@ border:inset grey 5px;
 
 .footer img{
     padding-top: 0.5rem;
-    width: 5rem;
+    width: 3.5rem;
+}
+
+.footer img:hover{
+    transform: scale(1.05);
 }
 
 .footer .barra__redes{
