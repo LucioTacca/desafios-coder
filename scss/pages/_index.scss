@@ -1,0 +1,44 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.section__noticias{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.main p{
+    color: white;
+}
+
+.main section img{
+    width: 70%;
+    border:inset grey 5px;
+}
+
+.aside{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+    }
+    
+.aside img{
+    width: 100%;
+    border:inset grey 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.aside h2{
+    color: rgb(185, 93, 93);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}

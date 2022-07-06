@@ -1,0 +1,53 @@
+.header ul {
+    color: rgb(185, 93, 93);
+    list-style-type: none;
+}
+.header a{
+    color: rgb(185, 93, 93);
+}
+
+.header{
+    background-image: url(../img/paneldesonido.jpg);
+    background-size: cover;
+    color: rgb(185, 93, 93);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header img{
+    height: 100vh;
+    width: 100vw;
+}
+
+.header h1{
+    text-align: center;
+    font-size: 15rem;
+    padding: 8rem;
+    text-shadow: 15px 18px 15px #000000;
+    
+}
+
+.header nav ul {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header nav ul :hover{
+    transform: scale(1.05);
+    color: orangered;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.header div{
+    background-color: hsla(0, 0%, 0%, 0.534);
+}
+
+.titulos__menores{
+    color: rgb(185, 93, 93);
+    font-size: 3rem;
+}

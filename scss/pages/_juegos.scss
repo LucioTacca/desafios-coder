@@ -1,0 +1,43 @@
+.juegos{
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    grid-template-rows: 400px 400px;
+    justify-items: center;
+    align-items: center;
+}
+
+.main__juegos{
+    padding-left: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.main__juegos h3{
+    color: rgb(185, 93, 93);
+    text-align: center;
+    font-size: 3rem;
+}
+
+.main__juegos h5{
+    color: rgb(185, 93, 93);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.main__juegos img{
+    height: 30vh;
+    border:inset grey 5px;
+}
+
+.main__juegos img:hover{
+    transform: scale(1.05);
+    transition: 330ms ease-out;
+}
+
+.main__juegos li{
+    list-style-type: none;
+}
