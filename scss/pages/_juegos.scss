@@ -14,20 +14,21 @@
     justify-items: center;
     align-items: center;
 }
-
+// prueba---------------------
+@mixin texto-juegos ($color, $text-a,$font-sz){
+    color: $color;
+    text-align: $text-a;
+    font-size: $font-sz;
+}
 
 .main__juegos h3{
-    color: rgb(185, 93, 93);
-    text-align: center;
-    font-size: 3rem;
+    @include texto-juegos (rgb(185, 93, 93), center, 3rem);
 }
 
 .main__juegos h5{
-    color: rgb(185, 93, 93);
-    font-size: 2rem;
-    text-align: center;
+    @include texto-juegos (rgb(185, 93, 93), center, 2rem);
 }
-
+//prueba----------------------
 .main__juegos img{
     height: 30vh;
     border:inset grey 5px;

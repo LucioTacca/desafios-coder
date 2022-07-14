@@ -1,9 +1,10 @@
-$color-de-fondo: black;
-
-$color-texto-comun-p:white;
-
-$color_titulos:rgb(185, 93, 93);
-
-$color_hover: orangered;
-
-$color-transparente-div-nav:hsla(0deg, 0%, 0%, 0.534);
+//map
+$colores: (
+    "parrafos": white,
+    "titulos": rgb(185, 93, 93),
+    "hover": orangered,
+    "background": black,
+    "div-transparente": hsla(0deg, 0%, 0%, 0.534),
+    "borde": inset grey 5px,
+    "sombra": 15px 18px 15px #000000,
+);

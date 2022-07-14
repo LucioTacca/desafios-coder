@@ -2,16 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.main{
     display: grid;
     grid-template-columns: 2fr 1fr;
-}
-
-.section__noticias{
-    grid-column: 1/2;
-    grid-row: 2/3;
 }
 
 .main p{
@@ -21,6 +13,11 @@
 .main section img{
     width: 70%;
     border:inset grey 5px;
+}
+
+.section__noticias{
+    grid-column: 1/2;
+    grid-row: 2/3;
 }
 
 .aside{

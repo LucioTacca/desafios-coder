@@ -1,20 +1,25 @@
 .header ul {
-    color: rgb(185, 93, 93);
+    color: map-get($map: $colores, $key:"titulos");
     list-style-type: none;
 }
 .header a{
-    color: rgb(185, 93, 93);
+    color: map-get($map: $colores, $key:"titulos");
 }
 
 .header{
     background-image: url(../img/paneldesonido.jpg);
     background-size: cover;
-    color: rgb(185, 93, 93);
+    color: map-get($map: $colores, $key:"titulos");
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
+//  prueba----------------------
+.header--test{
+    @extend.header;
+    display: none;
+}
+// prueba-----------------------
 .header img{
     height: 100vh;
     width: 100vw;
@@ -24,7 +29,7 @@
     text-align: center;
     font-size: 15rem;
     padding: 8rem;
-    text-shadow: 15px 18px 15px #000000;
+    text-shadow: map-get($map: $colores, $key:"sombra" );
     
 }
 
@@ -36,7 +41,7 @@
 
 .header nav ul :hover{
     transform: scale(1.05);
-    color: orangered;
+    color: map-get($map: $colores, $key:"hover");
 }
 
 .header a{
@@ -44,10 +49,10 @@
 }
 
 .header div{
-    background-color: hsla(0, 0%, 0%, 0.534);
+    background-color:  map-get($map: $colores, $key:"div-transparente");
 }
 
 .titulos__menores{
-    color: rgb(185, 93, 93);
+    color: map-get($map: $colores, $key:"titulos");
     font-size: 3rem;
 }
