@@ -1,4 +1,10 @@
 .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form{
     color: rgb(185, 93, 93);
     padding: 1rem;
     border:inset grey 5px;
