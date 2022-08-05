@@ -209,6 +209,22 @@
   padding: 1rem;
   border: inset grey 5px;
   width: 100%;
+  padding: 1rem;
+}
+
+.gmap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+  background-color: rgb(27, 25, 25);
+}
+
+.titulo_gmap {
+  color: rgb(185, 93, 93);
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 2rem;
 }
 
 .footer {
